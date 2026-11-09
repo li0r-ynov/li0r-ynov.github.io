@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+
+header{
+    max-width: 100%;
+    box-sizing: border-box;
+    color: #ff0000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+}
+
+.section-hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #964848;
+    color: #e60d0d;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.hero-content > h1{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content > h1 > span {
+    color: rgb(46, 46, 233);
+}
+
+
